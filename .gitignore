@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+tags.lock
+
+# Test binary, built with `go test -c`
+*.test
+coverage.out.*
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Folders
+_obj
+_test
+_project/
+bin/
+vendor/
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+# testlogs
+src/middlewares/testlogs/
+*.idea
+shell.sh
+bin/*
+
+# coverage
+coverage.out
+coverage.html
